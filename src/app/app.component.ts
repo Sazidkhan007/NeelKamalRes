@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NeelKamal-UI';
+
+  ngOnInit(){
+    window.scrollTo(0,0);
+  }
   
 }
